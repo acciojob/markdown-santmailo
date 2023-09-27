@@ -11,15 +11,16 @@ button{
     display: flex;
 }
 
-.textarea, .preview, .loading{
+.textarea, .preview{
     width: 50%;
     height: 50vh;
     border: 1px solid;
     margin-left: 20px;
     padding: 20px;
-    font-weight: bold;
 }
 
-
+.textarea, .preview, .loading{
+    font-weight: bold;
+}
 
 
