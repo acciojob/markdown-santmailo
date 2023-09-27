@@ -14,7 +14,7 @@ const App = () => {
         <div className="app">
             <textarea className="textarea" onChange={changeText}></textarea>
             <section className="preview">
-                <p className="loading">{text}</p>
+                <h1 className="loading">{text}</h1>
             </section>
         </div>
     )
