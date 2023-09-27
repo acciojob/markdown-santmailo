@@ -11,11 +11,15 @@ const App = () => {
                 if(item[0]=="#"){
                     return <h1 className="loading">{item.slice(1)}</h1>
                 }
-                return <p className="loading">{item}</p>
+                return <h1 className="loading">{item}</h1>
             }
         )
         setTextCollection(text);
     }
+
+    React.useEffect(() => {
+
+    }, [textCollection])
 
     return (
         <div className="app">
