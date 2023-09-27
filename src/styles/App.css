@@ -11,7 +11,7 @@ button{
     display: flex;
 }
 
-.textarea, .preview{
+.textarea, .preview, .loading{
     width: 50%;
     height: 50vh;
     border: 1px solid;
